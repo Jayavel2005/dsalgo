@@ -65,4 +65,4 @@ for i in range(nodes):
     tree.insert(int(input("Enter the node value: ")))
 # tree.bfs(tree.root)
 
-tree.search(tree.root, 2)
+tree.search(tree.root, int(input("Enter the Search Element: ")))
